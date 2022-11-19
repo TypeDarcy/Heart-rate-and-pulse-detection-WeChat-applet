@@ -2,7 +2,7 @@
 
 mqtt:tcp    (mqtt://)
 
-host: 101.132.172.88 
+host: 服务器地址
 port: 1883
 
 topic
