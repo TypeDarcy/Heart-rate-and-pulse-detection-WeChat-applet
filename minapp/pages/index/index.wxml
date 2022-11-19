@@ -1,0 +1,91 @@
+<!--index.wxml-->
+<import src='/tabbar/tabbar.wxml' />
+<view class="header" style=" display: block; box-sizing: border-box">
+  <view class="weather-header" style="width: 750rpx; height: 480rpx; display: block; box-sizing: border-box">
+    <image style="z-index: -999; position: absolute; height: 480rpx; width: 100%; display: block; box-sizing: border-box; left: 0rpx; top: 0rpx" src="/images/kangyi.jpg"></image>
+    <view class="header-content">
+      <view class="text_1">
+        <text>空气湿度:{{humidity}}</text>
+        <text>{{city}}-{{area}}</text>
+      </view>
+      <view class="text_2">
+        <text>{{temperature}}</text>
+        <text>{{weather}}</text>
+      </view>
+      <view class="text_3">
+        <text>{{weatherAdvice}}</text>
+      </view>
+
+    </view>
+  </view>
+
+</view>
+<view>
+  <text class="text" style="font-size: 35px; font-weight: 1000; color: #666666; position: relative; " decode="true">距离你隔离结束还有\n</text>
+  <view class="countdown">
+    <text style="font-size: 45px; font-weight: 1000; color: #66ccff; position: relative; ">12</text>
+    <text style="font-size: 45px; font-weight: 1000; color: #666666; position: relative; ">天</text>
+  </view>
+</view>
+<view class="hr">
+  <text style="font-size: 22px; font-weight: 1000; color: orange;" decode="true">&ensp;l&ensp;</text>
+  <text style="font-size: 20px; font-weight: 1000;">日常测量</text>
+</view>
+<view class="body" style="width: 750rpx; height: 511rpx; display: block; box-sizing: border-box">
+  <view class="hang">
+    <view class="message">
+      <view class="message-left">
+        <image class="img" src="/images/tiwen.png"></image>
+        <text>体温测量</text>
+      </view>
+      <view class="message-right">
+        <text>{{Temp}}°C</text>
+      </view>
+
+    </view>
+    <view class="message">
+      <view class="message-left">
+        <image class="img" src="/images/xinlv.png"></image>
+        <text>心率检测</text>
+      </view>
+      <view class="message-right">
+        <text>{{Pulse}}次/分</text>
+      </view>
+
+    </view>
+  </view>
+  <view class="hang">
+    <view class="message">
+      <view class="message-left">
+        <image class="img" src="/images/xueyang.png"></image>
+        <text>血氧检测</text>
+      </view>
+      <view class="message-right">
+        <text>{{Sao2}}%</text>
+      </view>
+
+    </view>
+    <view class="message">
+      <view class="message-left">
+        <image class="img" src="/images/room.png"></image>
+        <text>房间定位</text>
+      </view>
+      <view class="message-right">
+        <text>1001号</text>
+      </view>
+
+    </view>
+  </view>
+
+</view>
+<view class="item" style="height: 10vh;">
+  <button type="primary" bindtap="goTo" data-id="/pages/show/show" style="width: 300px;" >查看历史数据</button>
+  </view>
+<view class="tips">
+  <text decode="true">&emsp;&emsp;每日小知识之血氧饱和度:\n</text>
+  <text decode="true">&emsp;Sao2是血液中氧合血蛋白 (HbO2) 的容量占全部血红蛋白的百分比，是维持人体正常机能的重要生理参数。\n&emsp;血氧饱和度在95%-100%属于正常状态，小于90%是缺氧状态，小于80%属于严重缺氧，小于70%则会有生命危险。</text>
+</view>
+
+<view>
+  <include src="/tabbar/tabbar.wxml" />
+</view>

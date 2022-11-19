@@ -1,0 +1,37 @@
+/* pages/service/service.wxss */
+@import "/tabbar/tabbar.wxss";
+
+.img {
+  width: 70px;
+  height: 70px;
+}
+
+.item {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.body {
+  display: flex;
+  height: 100px;
+  justify-content: space-around;
+}
+.btn:not([size='mini']){
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0099FF;
+  margin-top: 100rpx;
+  padding: 10rpx;
+  width: 400rpx;
+  height: 100rpx;
+  border-radius: 40rpx;
+  color: white;
+  font-size: larger;
+}
+.quiz{
+  height: 30vh;
+}

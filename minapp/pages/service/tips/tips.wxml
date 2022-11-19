@@ -1,0 +1,4 @@
+<!--pages/service/tips/tips.wxml-->
+
+<web-view src="https://new.qq.com/rain/a/20220106A06CTW00">
+</web-view>

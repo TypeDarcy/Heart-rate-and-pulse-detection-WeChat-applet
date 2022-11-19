@@ -1,0 +1,4 @@
+<!--pages/service/policy/policy.wxml-->
+
+<web-view src="https://www.shanghai.gov.cn/yqfkzccs/index.html">
+</web-view>

@@ -1,0 +1,55 @@
+<!--pages/service/service.wxml-->
+<import src='/tabbar/tabbar.wxml' />
+
+<swiper indicator-dots="true" circular="true">
+  <block wx:for="{{swiper_item}}" wx:key="image">
+    <swiper-item bindtap="goTo" data-id="{{item.page}}">
+      <image src="{{item.image}}" style="width: 100%; height: 100%;"></image>
+    </swiper-item>
+  </block>
+</swiper>
+<view class="hr" style="height: 3vh; background-color: rgb(235, 230, 230);"></view>
+<view class="body">
+  <view class="item" bindtap="goTo" data-id="latest/latest">
+    <image class="img" src="/images/dongtai.png"></image>
+    <text>疫情动态</text>
+  </view>
+  <view class="item" bindtap="goTo" data-id="policy/policy">
+    <image class="img" src="/images/system.png"></image>
+    <text>防疫制度</text>
+  </view>
+  <view class="item" bindtap="goTo" data-id="tips/tips">
+    <image class="img" src="/images/tips.png"></image>
+    <text>防疫贴士</text>
+  </view>
+  <view class="item" bindtap="goTo" data-id="one/one">
+    <image class="img" src="/images/reading.png"></image>
+    <text>一个阅读</text>
+  </view>
+
+</view>
+<view class="hr" style="height: 2vh; background-color: rgb(235, 230, 230);"></view>
+
+<view class="mp4">
+  <view class="hr">
+    <text style="font-size: 20px; font-weight: 1000; color: orange;" decode="true">&ensp;l&ensp;</text>
+    <text style="font-size: 18px; font-weight:800;">防疫小视频</text>
+  </view>
+  <video src="{{mp4Address}}" style="width: 100%;" show-mute-btn="true" enable-play-gesture="true"></video>
+
+
+</view>
+
+<view class="hr" style="height: 2vh; background-color: rgb(235, 230, 230);"></view>
+<view class="quiz">
+  <view class="hr">
+    <text style="font-size: 20px; font-weight: 1000; color: orange;" decode="true">&ensp;l&ensp;</text>
+    <text style="font-size: 18px; font-weight:800;">防疫知识知多少</text>
+  </view>
+ <button class="btn" bindtap="goTo" data-id="quiz/quiz" >进入答题</button>
+
+</view>
+<view>
+
+  <include src="/tabbar/tabbar.wxml" />
+</view>

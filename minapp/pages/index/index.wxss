@@ -1,0 +1,89 @@
+/**index.wxss**/
+.header {
+
+  overflow: hidden;
+}
+
+.weather-header {
+  overflow: hidden;
+  background: rgb(0, 0, 0, 0.3) no-repeat center center;
+  background-blend-mode: multiply;
+  color: white;
+}
+
+.header-content {
+  padding: 120px 15px 20px 15px;
+}
+
+.text_1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text_2 {
+  font-size: 32px;
+  font-weight: 400;
+  display: flex;
+  justify-content: space-between;
+}
+
+.text_3 {
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+.body {
+  height: 700rpx;
+}
+
+.hang {
+  height: 250rpx;
+  display: flex;
+  justify-content: space-around;
+}
+
+.message {
+  background-color: white;
+  height: 220rpx;
+  width: 350rpx;
+  border-radius: 15%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.img {
+  height: 150rpx;
+  width: 150rpx;
+}
+
+.message-left {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.message-right {
+  display: flex;
+  font-size: 22px;
+  font-weight: 400;
+  align-items: center;
+}
+
+.countdown {
+  display: flex;
+  flex-direction: row;
+  justify-content: center
+}
+
+.text {
+  display: flex;
+
+  justify-content: center
+}
+.tips{
+  height: 30vh;
+}
+
+@import "/tabbar/tabbar.wxss";

@@ -1,0 +1,63 @@
+/* pages/tabbar/tabbar.wxss */
+page {
+  background: #f8f7f6;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 120rpx; /*footer的高度*/
+  background: #fff;
+  z-index: 500;
+  border-top: 1rpx solid #e9e9e9;
+  display: flex;
+  flex-direction: row;
+}
+
+.footer_list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.footer-image {
+  width: 50rpx;
+  height: 50rpx;
+  margin-top: 10rpx;
+
+}
+
+.footer-image2 {
+  width: 50rpx;
+  height: 50rpx;
+  margin-top: 20rpx;
+}
+
+.footer-text2 {
+  font-size: 24rpx;
+  margin-top: 15rpx;
+  color: #896D59;
+}
+
+.tab-img {
+  position: absolute;
+  top: -36rpx;
+  width: 96rpx;
+  height: 96rpx;
+  border-radius: 50%;
+  border-top: 2rpx solid #f2f2f3;
+  background-color: #fff;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 6rpx;
+}
+
+.footer-text {
+  font-size: 24rpx;
+  margin-top: 10rpx;
+  color: #896D59;
+}
+

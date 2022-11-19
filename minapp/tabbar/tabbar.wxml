@@ -1,0 +1,32 @@
+<!--pages/tabbar/tabbar.wxml-->
+<view class='footer'>
+
+<view class='footer_list' data-current="{{0}}" bindtap="chooseImg">
+  <image class="footer-image" hidden='{{curIdx===0}}' src="{{listInfo[0].imgUrl}}"></image>
+  <view hidden='{{curIdx!==0}}' class="tab-img">
+    <image class="footer-image2" src="{{listInfo[0].curUrl}}"></image>
+  </view>
+  <!-- 等于该id的话图标和名称就凸起来 -->
+  <view class="footer-text">首页</view>
+  <view hidden='{{curIdx!==0}}' class="footer-text2">首页</view>
+</view>
+
+<view class='footer_list' data-current="{{1}}" bindtap="chooseImg">
+  <image class="footer-image" hidden='{{curIdx===1}}' src="{{listInfo[1].imgUrl}}"></image>
+  <view hidden='{{curIdx!==1}}' class="tab-img">
+    <image class="footer-image2" src="{{listInfo[1].curUrl}}"></image>
+  </view>
+  <view class="footer-text">服务</view>
+  <view hidden='{{curIdx!==1}}' class="footer-text2">服务</view>
+</view>
+
+<view class='footer_list' data-current="{{2}}" bindtap="chooseImg">
+  <image class="footer-image" hidden='{{curIdx===2}}' src="{{listInfo[2].imgUrl}}"></image>
+  <view hidden='{{curIdx!==2}}' class="tab-img">
+    <image class="footer-image2" src="{{listInfo[2].curUrl}}"></image>
+  </view>
+  <view class="footer-text">我的</view>
+  <view hidden='{{curIdx!==2}}' class="footer-text2">我的</view>
+</view>
+
+</view>

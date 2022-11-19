@@ -1,0 +1,1094 @@
+Archive member included to satisfy reference by file (symbol)
+
+D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/main\libmain.a(bootloader_start.o)
+                              (call_start_cpu)
+D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_utility.o)
+                              D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/main\libmain.a(bootloader_start.o) (bootloader_utility_load_partition_table)
+D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
+                              D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/main\libmain.a(bootloader_start.o) (bootloader_init)
+D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+                              D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_utility.o) (bootloader_mmap)
+D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+                              D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_utility.o) (esp_image_load)
+D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
+                              D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_utility.o) (esp_partition_table_basic_verify)
+D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_common.o)
+                              D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_utility.o) (bootloader_common_ota_select_valid)
+D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+                              D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o) (g_rom_flashchip)
+D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash_raw.o)
+                              D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o) (spi_flash_get_id_raw)
+D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/log\liblog.a(log.o)
+                              D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_common.o) (esp_log_early_timestamp)
+D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/esp8266\libesp8266.a(ets_printf.o)
+                              D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/log\liblog.a(log.o) (ets_vprintf)
+D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/esp8266\libesp8266.a(crc.o)
+                              D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_common.o) (crc32_le)
+D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/esp8266\libesp8266.a(esp_fast_boot.o)
+                              D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_utility.o) (esp_fast_boot_get_info)
+D:/msys32/opt/ESP8266_RTOS_SDK/components/esp8266/lib\libcore.a(phy.o)
+                              D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o) (phy_reg_default)
+
+Allocating common symbols
+Common symbol       size              file
+
+esp_image_spi_freq_t
+                    0x4               D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/main\libmain.a(bootloader_start.o)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/main\libmain.a(bootloader_start.o)
+ .data          0x00000000        0x0 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/main\libmain.a(bootloader_start.o)
+ .bss           0x00000000        0x0 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/main\libmain.a(bootloader_start.o)
+ .xt.lit        0x00000000       0x18 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/main\libmain.a(bootloader_start.o)
+ .xt.prop       0x00000000       0xe4 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/main\libmain.a(bootloader_start.o)
+ COMMON         0x00000000        0x4 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/main\libmain.a(bootloader_start.o)
+ .literal.bootloader_utility_fast_boot_image
+                0x00000000        0x8 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_utility.o)
+ .text          0x00000000        0x0 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_utility.o)
+ .data          0x00000000        0x0 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_utility.o)
+ .bss           0x00000000        0x0 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_utility.o)
+ .text.bootloader_utility_fast_boot_image
+                0x00000000       0x27 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_utility.o)
+ .xt.lit        0x00000000       0x40 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_utility.o)
+ .xt.prop       0x00000000      0x510 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_utility.o)
+ .text          0x00000000        0x0 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
+ .data          0x00000000        0x0 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
+ .bss           0x00000000        0x0 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
+ .xt.lit        0x00000000       0x20 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
+ .xt.prop       0x00000000      0x210 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
+ .literal.bootloader_flash_write
+                0x00000000       0x28 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+ .literal.bootloader_flash_erase_sector
+                0x00000000        0x4 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+ .text          0x00000000        0x0 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+ .data          0x00000000        0x0 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+ .bss           0x00000000        0x0 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+ .rodata.bootloader_flash_write.str1.4
+                0x00000000       0xa7 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+ .text.bootloader_flash_write
+                0x00000000       0x9d D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+ .text.bootloader_flash_erase_sector
+                0x00000000       0x15 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+ .xt.lit        0x00000000       0x30 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+ .xt.prop       0x00000000      0x258 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+ .literal.esp_image_verify_bootloader
+                0x00000000        0x8 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+ .text          0x00000000        0x0 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+ .data          0x00000000        0x0 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+ .bss           0x00000000        0x0 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+ .text.esp_image_verify_bootloader
+                0x00000000       0x41 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+ .xt.lit        0x00000000       0x40 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+ .xt.prop       0x00000000      0x3e4 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+ .text          0x00000000        0x0 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
+ .data          0x00000000        0x0 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
+ .bss           0x00000000        0x0 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
+ .xt.lit        0x00000000        0x8 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
+ .xt.prop       0x00000000       0xcc D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
+ .literal.bootloader_common_check_long_hold_gpio
+                0x00000000       0x58 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_common.o)
+ .text          0x00000000        0x0 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_common.o)
+ .data          0x00000000        0x0 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_common.o)
+ .bss           0x00000000        0x0 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_common.o)
+ .text.bootloader_common_check_long_hold_gpio
+                0x00000000      0x230 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_common.o)
+ .xt.lit        0x00000000       0x18 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_common.o)
+ .xt.prop       0x00000000      0x420 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_common.o)
+ .literal.spi_flash_program
+                0x00000000       0x20 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+ .literal.__spi_flash_write
+                0x00000000        0x8 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+ .literal.__spi_flash_read
+                0x00000000       0x10 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+ .literal.spi_flash_write_status
+                0x00000000        0xc D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+ .literal.spi_flash_check_wr_protect
+                0x00000000       0x4c D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+ .literal.spi_flash_erase_sector
+                0x00000000       0x18 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+ .literal.spi_flash_read
+                0x00000000       0x24 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+ .literal.spi_flash_write
+                0x00000000       0x3c D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+ .literal.spi_flash_erase_range
+                0x00000000       0x10 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+ .literal.spi_flash_cache2phys
+                0x00000000       0x18 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+ .literal.spi_flash_get_chip_size
+                0x00000000        0x4 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+ .text          0x00000000        0x0 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+ .data          0x00000000        0x0 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+ .bss           0x00000000        0x0 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+ .text.spi_flash_program
+                0x00000000       0xd8 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+ .text.__spi_flash_write
+                0x00000000       0x23 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+ .text.__spi_flash_read
+                0x00000000       0x31 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+ .text.spi_flash_write_status
+                0x00000000       0x2a D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+ .text.spi_flash_check_wr_protect
+                0x00000000      0x165 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+ .text.spi_flash_erase_sector
+                0x00000000       0x56 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+ .text.spi_flash_read
+                0x00000000      0x109 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+ .text.spi_flash_write
+                0x00000000      0x176 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+ .text.spi_flash_erase_range
+                0x00000000       0x67 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+ .text.spi_flash_cache2phys
+                0x00000000       0x4e D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+ .text.spi_flash_get_chip_size
+                0x00000000        0x7 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+ .xt.lit        0x00000000       0xd0 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+ .xt.prop       0x00000000      0xb04 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+ .literal.spi_flash_write_status_raw
+                0x00000000       0x1c D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash_raw.o)
+ .literal.spi_flash_erase_sector_raw
+                0x00000000       0x14 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash_raw.o)
+ .literal.spi_flash_write_raw
+                0x00000000        0xc D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash_raw.o)
+ .literal.spi_flash_read_raw
+                0x00000000        0xc D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash_raw.o)
+ .text          0x00000000        0x0 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash_raw.o)
+ .data          0x00000000        0x0 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash_raw.o)
+ .bss           0x00000000        0x0 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash_raw.o)
+ .text.spi_flash_write_status_raw
+                0x00000000       0x5c D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash_raw.o)
+ .text.spi_flash_erase_sector_raw
+                0x00000000       0x50 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash_raw.o)
+ .text.spi_flash_write_raw
+                0x00000000       0x43 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash_raw.o)
+ .text.spi_flash_read_raw
+                0x00000000       0x43 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash_raw.o)
+ .xt.lit        0x00000000       0x58 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash_raw.o)
+ .xt.prop       0x00000000      0x348 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash_raw.o)
+ .text          0x00000000        0x0 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/log\liblog.a(log.o)
+ .data          0x00000000        0x0 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/log\liblog.a(log.o)
+ .bss           0x00000000        0x0 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/log\liblog.a(log.o)
+ .xt.lit        0x00000000       0x10 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/log\liblog.a(log.o)
+ .xt.prop       0x00000000       0xcc D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/log\liblog.a(log.o)
+ .text          0x00000000        0x0 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/esp8266\libesp8266.a(ets_printf.o)
+ .data          0x00000000        0x0 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/esp8266\libesp8266.a(ets_printf.o)
+ .bss           0x00000000        0x0 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/esp8266\libesp8266.a(ets_printf.o)
+ .xt.lit        0x00000000       0x20 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/esp8266\libesp8266.a(ets_printf.o)
+ .xt.prop       0x00000000       0xe4 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/esp8266\libesp8266.a(ets_printf.o)
+ .literal.crc16_le
+                0x00000000        0x4 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/esp8266\libesp8266.a(crc.o)
+ .literal.esp_crc8
+                0x00000000        0x4 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/esp8266\libesp8266.a(crc.o)
+ .text          0x00000000        0x0 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/esp8266\libesp8266.a(crc.o)
+ .data          0x00000000        0x0 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/esp8266\libesp8266.a(crc.o)
+ .bss           0x00000000        0x0 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/esp8266\libesp8266.a(crc.o)
+ .text.crc16_le
+                0x00000000       0x3b D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/esp8266\libesp8266.a(crc.o)
+ .text.esp_crc8
+                0x00000000       0x21 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/esp8266\libesp8266.a(crc.o)
+ .rodata.crc8_le_table
+                0x00000000      0x100 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/esp8266\libesp8266.a(crc.o)
+ .rodata.crc16_le_table
+                0x00000000      0x200 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/esp8266\libesp8266.a(crc.o)
+ .xt.lit        0x00000000       0x18 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/esp8266\libesp8266.a(crc.o)
+ .xt.prop       0x00000000       0xfc D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/esp8266\libesp8266.a(crc.o)
+ .literal.esp_fast_boot_disable
+                0x00000000        0x4 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/esp8266\libesp8266.a(esp_fast_boot.o)
+ .literal.esp_fast_boot_get_info
+                0x00000000       0x2c D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/esp8266\libesp8266.a(esp_fast_boot.o)
+ .literal.esp_fast_boot_print_info
+                0x00000000       0x2c D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/esp8266\libesp8266.a(esp_fast_boot.o)
+ .text          0x00000000        0x0 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/esp8266\libesp8266.a(esp_fast_boot.o)
+ .data          0x00000000        0x0 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/esp8266\libesp8266.a(esp_fast_boot.o)
+ .bss           0x00000000        0x0 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/esp8266\libesp8266.a(esp_fast_boot.o)
+ .text.esp_fast_boot_disable
+                0x00000000       0x11 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/esp8266\libesp8266.a(esp_fast_boot.o)
+ .rodata.esp_fast_boot_get_info.str1.4
+                0x00000000       0x24 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/esp8266\libesp8266.a(esp_fast_boot.o)
+ .text.esp_fast_boot_get_info
+                0x00000000       0x86 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/esp8266\libesp8266.a(esp_fast_boot.o)
+ .rodata.esp_fast_boot_print_info.str1.4
+                0x00000000       0x59 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/esp8266\libesp8266.a(esp_fast_boot.o)
+ .text.esp_fast_boot_print_info
+                0x00000000       0x4d D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/esp8266\libesp8266.a(esp_fast_boot.o)
+ .debug_frame   0x00000000       0x68 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/esp8266\libesp8266.a(esp_fast_boot.o)
+ .debug_info    0x00000000      0xbcf D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/esp8266\libesp8266.a(esp_fast_boot.o)
+ .debug_abbrev  0x00000000      0x251 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/esp8266\libesp8266.a(esp_fast_boot.o)
+ .debug_loc     0x00000000       0xb0 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/esp8266\libesp8266.a(esp_fast_boot.o)
+ .debug_aranges
+                0x00000000       0x30 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/esp8266\libesp8266.a(esp_fast_boot.o)
+ .debug_ranges  0x00000000       0x20 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/esp8266\libesp8266.a(esp_fast_boot.o)
+ .debug_line    0x00000000      0x49c D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/esp8266\libesp8266.a(esp_fast_boot.o)
+ .debug_str     0x00000000      0x717 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/esp8266\libesp8266.a(esp_fast_boot.o)
+ .comment       0x00000000       0x32 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/esp8266\libesp8266.a(esp_fast_boot.o)
+ .xt.lit        0x00000000       0x18 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/esp8266\libesp8266.a(esp_fast_boot.o)
+ .xt.prop       0x00000000       0xc0 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/esp8266\libesp8266.a(esp_fast_boot.o)
+ .literal.phy_reg_default
+                0x00000000        0x0 D:/msys32/opt/ESP8266_RTOS_SDK/components/esp8266/lib\libcore.a(phy.o)
+ .text          0x00000000        0x0 D:/msys32/opt/ESP8266_RTOS_SDK/components/esp8266/lib\libcore.a(phy.o)
+ .data          0x00000000        0x0 D:/msys32/opt/ESP8266_RTOS_SDK/components/esp8266/lib\libcore.a(phy.o)
+ .bss           0x00000000        0x0 D:/msys32/opt/ESP8266_RTOS_SDK/components/esp8266/lib\libcore.a(phy.o)
+ .xt.lit        0x00000000        0x8 D:/msys32/opt/ESP8266_RTOS_SDK/components/esp8266/lib\libcore.a(phy.o)
+ .xt.prop       0x00000000       0x48 D:/msys32/opt/ESP8266_RTOS_SDK/components/esp8266/lib\libcore.a(phy.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+dport0_seg       0x3ff00000         0x00000010
+dram_seg         0x3ffe8000         0x00017c00
+iram_seg         0x40100000         0x00008000
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+START GROUP
+LOAD D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/main\libmain.a
+LOAD D:/msys32/opt/ESP8266_RTOS_SDK/components/esp8266/lib\libcore.a
+LOAD D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a
+LOAD D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a
+LOAD D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/log\liblog.a
+LOAD D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/esp8266\libesp8266.a
+LOAD D:/msys32/opt/ESP8266_RTOS_SDK/components/esp8266/lib\libgcc.a
+LOAD d:/msys32/opt/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib\libstdc++.a
+LOAD d:/msys32/opt/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0\libgcov.a
+END GROUP
+
+.text           0x40100000     0x1b7d
+                0x40100000                _stext = .
+                0x40100000                _text_start = ABSOLUTE (.)
+                0x40100000                . = ALIGN (0x10)
+ *(.entry.text)
+ *(.init.literal)
+ *(.init)
+ *(.literal .text .literal.* .text.* .stub .gnu.warning .gnu.linkonce.literal.* .gnu.linkonce.t.*.literal .gnu.linkonce.t.*)
+ .literal.selected_boot_partition
+                0x40100000        0x0 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/main\libmain.a(bootloader_start.o)
+                                  0x4 (size before relaxing)
+ .literal.select_image
+                0x40100000        0xc D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/main\libmain.a(bootloader_start.o)
+                                 0x1c (size before relaxing)
+ .literal.call_start_cpu
+                0x4010000c        0x0 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/main\libmain.a(bootloader_start.o)
+                                  0xc (size before relaxing)
+ .literal.bootloader_utility_start_image
+                0x4010000c        0x0 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_utility.o)
+                                  0x4 (size before relaxing)
+ .literal.log_invalid_app_partition
+                0x4010000c       0x14 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_utility.o)
+                                 0x20 (size before relaxing)
+ .literal.try_load_partition
+                0x40100020        0x4 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_utility.o)
+                                 0x10 (size before relaxing)
+ .literal.bootloader_utility_load_partition_table
+                0x40100024       0x4c D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_utility.o)
+                                 0x74 (size before relaxing)
+ .literal.bootloader_utility_get_selected_boot_partition
+                0x40100070       0x1c D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_utility.o)
+                                 0x5c (size before relaxing)
+ .literal.bootloader_utility_load_boot_image
+                0x4010008c        0xc D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_utility.o)
+                                 0x40 (size before relaxing)
+ .literal.bootloader_utility_load_image
+                0x40100098        0x0 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_utility.o)
+                                  0x4 (size before relaxing)
+ .literal.print_flash_info
+                0x40100098       0x48 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
+                                 0x54 (size before relaxing)
+ .literal.update_flash_config
+                0x401000e0        0x4 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
+                                  0x8 (size before relaxing)
+ .literal.bootloader_main
+                0x401000e4       0x10 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
+                                 0x30 (size before relaxing)
+ .literal.bootloader_init
+                0x401000f4        0x8 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
+                                 0x10 (size before relaxing)
+ .literal.bootloader_flash_read_no_decrypt
+                0x401000fc        0x4 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+ .literal.bootloader_mmap
+                0x40100100       0x30 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+                                 0x3c (size before relaxing)
+ .literal.bootloader_munmap
+                0x40100130        0x0 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+                                  0x8 (size before relaxing)
+ .literal.bootloader_flash_read
+                0x40100130        0xc D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+                                 0x20 (size before relaxing)
+ .literal.should_map
+                0x4010013c        0x8 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+ .literal.should_load
+                0x40100144        0x0 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+                                  0x4 (size before relaxing)
+ .literal.verify_image_header
+                0x40100144       0x14 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+                                 0x20 (size before relaxing)
+ .literal.process_segment_data
+                0x40100158        0x8 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+                                 0x14 (size before relaxing)
+ .literal.verify_checksum
+                0x40100160        0x8 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+                                 0x1c (size before relaxing)
+ .literal.process_segment
+                0x40100168       0x18 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+                                 0x40 (size before relaxing)
+ .literal.esp_image_load
+                0x40100180       0x14 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+                                 0x44 (size before relaxing)
+ .literal.esp_partition_table_basic_verify
+                0x40100194       0x1c D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
+                                 0x2c (size before relaxing)
+ .literal.bootloader_common_ota_select_crc
+                0x401001b0        0x0 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_common.o)
+                                  0x4 (size before relaxing)
+ .literal.bootloader_common_ota_select_valid
+                0x401001b0        0x0 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_common.o)
+                                  0x4 (size before relaxing)
+ .literal.spi_user_cmd
+                0x401001b0        0x4 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+                                  0xc (size before relaxing)
+ .literal.special_flash_read_status
+                0x401001b4        0x0 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+                                  0x4 (size before relaxing)
+ .literal.flash_gd25q32c_read_status
+                0x401001b4        0x0 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+                                  0x4 (size before relaxing)
+ .literal.special_flash_write_status
+                0x401001b4        0x0 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+                                  0x8 (size before relaxing)
+ .literal.spi_flash_enable_qio_bit6
+                0x401001b4        0x0 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+                                  0x4 (size before relaxing)
+ .literal.flash_gd25q32c_write_status
+                0x401001b4        0x0 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+                                  0x4 (size before relaxing)
+ .literal.flash_gd25q32c_enable_QIO_mode
+                0x401001b4        0x0 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+                                  0xc (size before relaxing)
+ .literal.en25q16x_read_sfdp
+                0x401001b4        0x4 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+                                  0x8 (size before relaxing)
+ .literal.spi_flash_get_id
+                0x401001b8        0x0 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+                                  0xc (size before relaxing)
+ .literal.spi_flash_read_status
+                0x401001b8        0x0 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+                                  0xc (size before relaxing)
+ .literal.spi_flash_issi_enable_QIO_mode
+                0x401001b8        0x0 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+                                  0xc (size before relaxing)
+ .literal.special_flash_set_mode
+                0x401001b8        0x0 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+                                  0x8 (size before relaxing)
+ .literal.en25q16x_write_volatile_status
+                0x401001b8        0x0 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+                                 0x14 (size before relaxing)
+ .literal.user_spi_flash_dio_to_qio_pre_init
+                0x401001b8        0xc D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+                                 0x30 (size before relaxing)
+ .literal.esp_spi_flash_init
+                0x401001c4       0x20 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+                                 0x28 (size before relaxing)
+ .literal.Cache_Read_Disable_2
+                0x401001e4        0xc D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash_raw.o)
+                                 0x10 (size before relaxing)
+ .literal.Cache_Read_Enable_2
+                0x401001f0        0x4 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash_raw.o)
+                                  0xc (size before relaxing)
+ .literal.spi_flash_get_id_raw
+                0x401001f4       0x10 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash_raw.o)
+                                 0x1c (size before relaxing)
+ .literal.spi_flash_read_status_raw
+                0x40100204        0x4 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash_raw.o)
+                                  0xc (size before relaxing)
+ .literal.spi_flash_enable_qmode_raw
+                0x40100208        0x4 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash_raw.o)
+                                 0x10 (size before relaxing)
+ .literal.spi_user_cmd_raw
+                0x4010020c       0x64 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash_raw.o)
+                                 0x8c (size before relaxing)
+ .literal.spi_flash_switch_to_qio_raw
+                0x40100270        0x8 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash_raw.o)
+                                  0xc (size before relaxing)
+ .literal.uart_putc
+                0x40100278        0x8 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/esp8266\libesp8266.a(ets_printf.o)
+ .literal.ets_putc
+                0x40100280        0x0 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/esp8266\libesp8266.a(ets_printf.o)
+                                  0x8 (size before relaxing)
+ .literal.ets_vprintf
+                0x40100280        0x8 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/esp8266\libesp8266.a(ets_printf.o)
+ .literal.crc32_le
+                0x40100288        0x4 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/esp8266\libesp8266.a(crc.o)
+ .iram1.0.literal
+                0x4010028c        0x8 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/log\liblog.a(log.o)
+ .iram1.1.literal
+                0x40100294       0x18 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/log\liblog.a(log.o)
+                                 0x30 (size before relaxing)
+ .iram1.0.literal
+                0x401002ac        0x0 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/esp8266\libesp8266.a(ets_printf.o)
+                                  0x8 (size before relaxing)
+ .text.selected_boot_partition
+                0x401002ac        0xf D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/main\libmain.a(bootloader_start.o)
+                                 0x13 (size before relaxing)
+ *fill*         0x401002bb        0x1 
+ .text.select_image
+                0x401002bc       0x68 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/main\libmain.a(bootloader_start.o)
+                                 0x70 (size before relaxing)
+ .text.call_start_cpu
+                0x40100324       0x26 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/main\libmain.a(bootloader_start.o)
+                                 0x2e (size before relaxing)
+                0x40100324                call_start_cpu
+ *fill*         0x4010034a        0x2 
+ .text.bootloader_utility_start_image
+                0x4010034c       0x20 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_utility.o)
+                                 0x24 (size before relaxing)
+ .text.log_invalid_app_partition
+                0x4010036c       0x4b D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_utility.o)
+                                 0x53 (size before relaxing)
+ *fill*         0x401003b7        0x1 
+ .text.try_load_partition
+                0x401003b8       0x3d D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_utility.o)
+                                 0x41 (size before relaxing)
+ *fill*         0x401003f5        0x3 
+ .text.bootloader_utility_load_partition_table
+                0x401003f8      0x170 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_utility.o)
+                                0x184 (size before relaxing)
+                0x401003f8                bootloader_utility_load_partition_table
+ .text.bootloader_utility_get_selected_boot_partition
+                0x40100568      0x13c D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_utility.o)
+                                0x14c (size before relaxing)
+                0x40100568                bootloader_utility_get_selected_boot_partition
+ .text.bootloader_utility_load_boot_image
+                0x401006a4       0xd6 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_utility.o)
+                                 0xfa (size before relaxing)
+                0x401006a4                bootloader_utility_load_boot_image
+ *fill*         0x4010077a        0x2 
+ .text.bootloader_utility_load_image
+                0x4010077c       0x19 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_utility.o)
+                0x4010077c                bootloader_utility_load_image
+ *fill*         0x40100795        0x3 
+ .text.print_flash_info
+                0x40100798       0xc7 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
+                                 0xcb (size before relaxing)
+ *fill*         0x4010085f        0x1 
+ .text.update_flash_config
+                0x40100860       0x21 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
+ *fill*         0x40100881        0x3 
+ .text.bootloader_main
+                0x40100884       0x69 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
+                                 0x79 (size before relaxing)
+ *fill*         0x401008ed        0x3 
+ .text.bootloader_init
+                0x401008f0       0x25 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
+                                 0x29 (size before relaxing)
+                0x401008f0                bootloader_init
+ *fill*         0x40100915        0x3 
+ .text.bootloader_flash_read_no_decrypt
+                0x40100918       0x15 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+ *fill*         0x4010092d        0x3 
+ .text.bootloader_mmap
+                0x40100930       0xa6 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+                                 0xaa (size before relaxing)
+                0x40100930                bootloader_mmap
+ *fill*         0x401009d6        0x2 
+ .text.bootloader_munmap
+                0x401009d8       0x23 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+                0x401009d8                bootloader_munmap
+ *fill*         0x401009fb        0x1 
+ .text.bootloader_flash_read
+                0x401009fc       0x60 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+                                 0x63 (size before relaxing)
+                0x401009fc                bootloader_flash_read
+ *fill*         0x40100a5c        0x0 
+ .text.should_map
+                0x40100a5c       0x15 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+ *fill*         0x40100a71        0x3 
+ .text.should_load
+                0x40100a74       0x19 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+                                 0x1d (size before relaxing)
+ *fill*         0x40100a8d        0x3 
+ .text.verify_image_header
+                0x40100a90       0x7d D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+                                 0x85 (size before relaxing)
+ *fill*         0x40100b0d        0x3 
+ .text.process_segment_data
+                0x40100b10       0x89 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+                                 0x91 (size before relaxing)
+ *fill*         0x40100b99        0x3 
+ .text.verify_checksum
+                0x40100b9c       0x9c D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+                                 0xa0 (size before relaxing)
+ .text.process_segment
+                0x40100c38      0x10b D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+                                0x117 (size before relaxing)
+ *fill*         0x40100d43        0x1 
+ .text.esp_image_load
+                0x40100d44      0x18d D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+                                0x1a5 (size before relaxing)
+                0x40100d44                esp_image_load
+ *fill*         0x40100ed1        0x3 
+ .text.esp_partition_table_basic_verify
+                0x40100ed4       0xd7 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
+                0x40100ed4                esp_partition_table_basic_verify
+ *fill*         0x40100fab        0x1 
+ .text.bootloader_common_ota_select_crc
+                0x40100fac       0x18 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_common.o)
+                0x40100fac                bootloader_common_ota_select_crc
+ .text.bootloader_common_ota_select_valid
+                0x40100fc4       0x2c D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_common.o)
+                0x40100fc4                bootloader_common_ota_select_valid
+ .text.spi_user_cmd
+                0x40100ff0       0x4d D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+                0x40100ff0                spi_user_cmd
+ *fill*         0x4010103d        0x3 
+ .text.special_flash_read_status
+                0x40101040       0x39 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+                                 0x3d (size before relaxing)
+                0x40101040                special_flash_read_status
+ *fill*         0x40101079        0x3 
+ .text.flash_gd25q32c_read_status
+                0x4010107c       0x33 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+ *fill*         0x401010af        0x1 
+ .text.special_flash_write_status
+                0x401010b0       0x5c D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+                                 0x60 (size before relaxing)
+                0x401010b0                special_flash_write_status
+ .text.spi_flash_enable_qio_bit6
+                0x4010110c       0x17 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+                                 0x1b (size before relaxing)
+ *fill*         0x40101123        0x1 
+ .text.flash_gd25q32c_write_status
+                0x40101124       0x30 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+ .text.flash_gd25q32c_enable_QIO_mode
+                0x40101154       0x3e D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+                                 0x46 (size before relaxing)
+ *fill*         0x40101192        0x2 
+ .text.en25q16x_read_sfdp
+                0x40101194       0x43 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+                0x40101194                en25q16x_read_sfdp
+ *fill*         0x401011d7        0x1 
+ .text.spi_flash_get_id
+                0x401011d8       0x26 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+                0x401011d8                spi_flash_get_id
+ *fill*         0x401011fe        0x2 
+ .text.spi_flash_read_status
+                0x40101200       0x28 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+                0x40101200                spi_flash_read_status
+ .text.spi_flash_issi_enable_QIO_mode
+                0x40101228       0x43 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+                                 0x4b (size before relaxing)
+ *fill*         0x4010126b        0x1 
+ .text.special_flash_set_mode
+                0x4010126c       0x41 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+                                 0x45 (size before relaxing)
+                0x4010126c                special_flash_set_mode
+ *fill*         0x401012ad        0x3 
+ .text.en25q16x_write_volatile_status
+                0x401012b0       0x4f D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+                                 0x5b (size before relaxing)
+                0x401012b0                en25q16x_write_volatile_status
+ *fill*         0x401012ff        0x1 
+ .text.user_spi_flash_dio_to_qio_pre_init
+                0x40101300       0x95 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+                                 0xa1 (size before relaxing)
+                0x40101300                user_spi_flash_dio_to_qio_pre_init
+ *fill*         0x40101395        0x3 
+ .text.esp_spi_flash_init
+                0x40101398       0xb9 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+                                 0xc1 (size before relaxing)
+                0x40101398                esp_spi_flash_init
+ *fill*         0x40101451        0x3 
+ .text.Cache_Read_Disable_2
+                0x40101454       0x34 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash_raw.o)
+                0x40101454                Cache_Read_Disable_2
+ .text.Cache_Read_Enable_2
+                0x40101488       0x28 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash_raw.o)
+                0x40101488                Cache_Read_Enable_2
+                0x40101488                Cache_Read_Enable_New
+ .text.spi_flash_get_id_raw
+                0x401014b0       0x57 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash_raw.o)
+                0x401014b0                spi_flash_get_id_raw
+ *fill*         0x40101507        0x1 
+ .text.spi_flash_read_status_raw
+                0x40101508       0x2f D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash_raw.o)
+                                 0x33 (size before relaxing)
+                0x40101508                spi_flash_read_status_raw
+ *fill*         0x40101537        0x1 
+ .text.spi_flash_enable_qmode_raw
+                0x40101538       0x33 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash_raw.o)
+                                 0x37 (size before relaxing)
+                0x40101538                spi_flash_enable_qmode_raw
+ *fill*         0x4010156b        0x1 
+ .text.spi_user_cmd_raw
+                0x4010156c      0x3df D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash_raw.o)
+                0x4010156c                spi_user_cmd_raw
+ *fill*         0x4010194b        0x1 
+ .text.spi_flash_switch_to_qio_raw
+                0x4010194c       0x25 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash_raw.o)
+                0x4010194c                spi_flash_switch_to_qio_raw
+ *fill*         0x40101971        0x3 
+ .text.uart_putc
+                0x40101974       0x1b D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/esp8266\libesp8266.a(ets_printf.o)
+ *fill*         0x4010198f        0x1 
+ .text.ets_putc
+                0x40101990       0x27 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/esp8266\libesp8266.a(ets_printf.o)
+                0x40101990                ets_putc
+ *fill*         0x401019b7        0x1 
+ .text.ets_vprintf
+                0x401019b8       0x1f D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/esp8266\libesp8266.a(ets_printf.o)
+                0x401019b8                ets_vprintf
+ *fill*         0x401019d7        0x1 
+ .text.crc32_le
+                0x401019d8       0x31 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/esp8266\libesp8266.a(crc.o)
+                0x401019d8                crc32_le
+ *fill*         0x40101a09        0x3 
+ .text.phy_reg_default
+                0x40101a0c       0x36 D:/msys32/opt/ESP8266_RTOS_SDK/components/esp8266/lib\libcore.a(phy.o)
+                0x40101a1c                phy_reg_default
+ *fill*         0x40101a42        0x0 
+ *fill*         0x40101a42        0x2 
+ .text.index_to_partition
+                0x40101a44       0x4d D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_utility.o)
+ *fill*         0x40101a91        0x0 
+ *fill*         0x40101a91        0x0 
+ *fill*         0x40101a91        0x0 
+ *fill*         0x40101a91        0x0 
+ *fill*         0x40101a91        0x0 
+ *fill*         0x40101a91        0x0 
+ *fill*         0x40101a91        0x0 
+ *fill*         0x40101a91        0x0 
+ *fill*         0x40101a91        0x0 
+ *fill*         0x40101a91        0x0 
+ *fill*         0x40101a91        0x0 
+ *fill*         0x40101a91        0x0 
+ *fill*         0x40101a91        0x3 
+ .text.verify_segment_header
+                0x40101a94        0x4 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+ *fill*         0x40101a98        0x0 
+ *fill*         0x40101a98        0x0 
+ *fill*         0x40101a98        0x0 
+ *fill*         0x40101a98        0x0 
+ *fill*         0x40101a98        0x0 
+ *fill*         0x40101a98        0x0 
+ *fill*         0x40101a98        0x0 
+ *fill*         0x40101a98        0x0 
+ *fill*         0x40101a98        0x0 
+ *fill*         0x40101a98        0x0 
+ *fill*         0x40101a98        0x0 
+ *fill*         0x40101a98        0x0 
+ *fill*         0x40101a98        0x0 
+ *fill*         0x40101a98        0x0 
+ *fill*         0x40101a98        0x0 
+ *fill*         0x40101a98        0x0 
+ *fill*         0x40101a98        0x0 
+ *fill*         0x40101a98        0x0 
+ *fill*         0x40101a98        0x0 
+ *fill*         0x40101a98        0x0 
+ *fill*         0x40101a98        0x0 
+ *fill*         0x40101a98        0x0 
+ *fill*         0x40101a98        0x0 
+ *fill*         0x40101a98        0x0 
+ *fill*         0x40101a98        0x0 
+ *fill*         0x40101a98        0x0 
+ *fill*         0x40101a98        0x0 
+ *fill*         0x40101a98        0x0 
+ *(.iram1 .iram1.*)
+ .iram1.0       0x40101a98       0x18 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/log\liblog.a(log.o)
+                0x40101a98                esp_log_early_timestamp
+ .iram1.1       0x40101ab0       0x96 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/log\liblog.a(log.o)
+                                 0xa1 (size before relaxing)
+                0x40101ab0                esp_early_log_write
+ *fill*         0x40101b46        0x2 
+ .iram1.0       0x40101b48       0x35 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/esp8266\libesp8266.a(ets_printf.o)
+                                 0x39 (size before relaxing)
+                0x40101b48                ets_printf
+ *fill*         0x40101b7d        0x0 
+ *fill*         0x40101b7d        0x0 
+ *(.fini.literal)
+ *(.fini)
+ *(.gnu.version)
+                0x40101b7d                _text_end = ABSOLUTE (.)
+                0x40101b7d                _etext = .
+
+.bss            0x3ffe8000      0x408
+                0x3ffe8000                . = ALIGN (0x8)
+                0x3ffe8000                _bss_start = ABSOLUTE (.)
+ *(.dynsbss)
+ *(.sbss)
+ *(.sbss.*)
+ *(.gnu.linkonce.sb.*)
+ *(.scommon)
+ *(.sbss2)
+ *(.sbss2.*)
+ *(.gnu.linkonce.sb2.*)
+ *(.dynbss)
+ *(.bss)
+ *(.bss.*)
+ .bss.mapped    0x3ffe8000        0x1 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+ *fill*         0x3ffe8001        0x3 
+ .bss.pbuf$3623
+                0x3ffe8004      0x400 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+ .bss.FlashIsOnGoing
+                0x3ffe8404        0x1 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+                0x3ffe8404                FlashIsOnGoing
+ *(.gnu.linkonce.b.*)
+ *(COMMON)
+                0x3ffe8408                . = ALIGN (0x8)
+ *fill*         0x3ffe8405        0x3 
+                0x3ffe8408                _bss_end = ABSOLUTE (.)
+
+.data           0x3ffe8408       0x18
+                0x3ffe8408                _data_start = ABSOLUTE (.)
+ *(.data)
+ *(.data.*)
+ .data.g_rom_flashchip
+                0x3ffe8408       0x18 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+                0x3ffe8408                g_rom_flashchip
+ *(.gnu.linkonce.d.*)
+ *(.data1)
+ *(.sdata)
+ *(.sdata.*)
+ *(.gnu.linkonce.s.*)
+ *(.sdata2)
+ *(.sdata2.*)
+ *(.gnu.linkonce.s2.*)
+ *(.jcr)
+                0x3ffe8420                _data_end = ABSOLUTE (.)
+
+.rodata         0x3ffe8420      0xcf4
+                0x3ffe8420                _rodata_start = ABSOLUTE (.)
+ *(.rodata)
+ *(.rodata.*)
+ .rodata.select_image.str1.4
+                0x3ffe8420       0x21 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/main\libmain.a(bootloader_start.o)
+ *fill*         0x3ffe8441        0x3 
+ .rodata.log_invalid_app_partition.str1.4
+                0x3ffe8444       0x68 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_utility.o)
+                                 0x70 (size before relaxing)
+ .rodata.try_load_partition.str1.4
+                0x3ffe84ac       0x29 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_utility.o)
+ *fill*         0x3ffe84d5        0x3 
+ .rodata.bootloader_utility_load_partition_table.str1.4
+                0x3ffe84d8      0x137 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_utility.o)
+ *fill*         0x3ffe860f        0x1 
+ .rodata.bootloader_utility_get_selected_boot_partition.str1.4
+                0x3ffe8610       0xef D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_utility.o)
+ *fill*         0x3ffe86ff        0x1 
+ .rodata.bootloader_utility_load_boot_image.str1.4
+                0x3ffe8700       0x9a D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_utility.o)
+ *fill*         0x3ffe879a        0x2 
+ .rodata.print_flash_info.str1.4
+                0x3ffe879c       0x88 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
+                                 0x94 (size before relaxing)
+ .rodata.print_flash_info
+                0x3ffe8824       0x28 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
+ .rodata.bootloader_main.str1.4
+                0x3ffe884c       0x66 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
+ *fill*         0x3ffe88b2        0x2 
+ .rodata.bootloader_mmap.str1.4
+                0x3ffe88b4       0x57 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+ *fill*         0x3ffe890b        0x1 
+ .rodata.bootloader_flash_read.str1.4
+                0x3ffe890c       0x9f D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+ *fill*         0x3ffe89ab        0x1 
+ .rodata.verify_image_header.str1.4
+                0x3ffe89ac       0x82 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+ *fill*         0x3ffe8a2e        0x2 
+ .rodata.process_segment_data.str1.4
+                0x3ffe8a30       0x27 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+ *fill*         0x3ffe8a57        0x1 
+ .rodata.verify_checksum.str1.4
+                0x3ffe8a58       0x57 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+ *fill*         0x3ffe8aaf        0x1 
+ .rodata.process_segment.str1.4
+                0x3ffe8ab0       0x8f D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+                                 0x93 (size before relaxing)
+ *fill*         0x3ffe8b3f        0x1 
+ .rodata.esp_image_load.str1.4
+                0x3ffe8b40       0xaf D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+ *fill*         0x3ffe8bef        0x1 
+ .rodata.esp_partition_table_basic_verify.str1.4
+                0x3ffe8bf0       0xb4 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
+ .rodata.esp_spi_flash_init.str1.4
+                0x3ffe8ca4       0x29 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+ *fill*         0x3ffe8ccd        0x3 
+ .rodata.str1.4
+                0x3ffe8cd0       0x24 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/log\liblog.a(log.o)
+                                 0x22 (size before relaxing)
+ .rodata.s_log_prefix
+                0x3ffe8cf4        0x6 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/log\liblog.a(log.o)
+ *fill*         0x3ffe8cfa        0x2 
+ .rodata.s_log_color
+                0x3ffe8cfc       0x18 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/log\liblog.a(log.o)
+ .rodata.crc32_le_table
+                0x3ffe8d14      0x400 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/esp8266\libesp8266.a(crc.o)
+ *(.gnu.linkonce.r.*)
+ *(.rodata1)
+                0x3ffe9114                __XT_EXCEPTION_TABLE_ = ABSOLUTE (.)
+ *(.xt_except_table)
+ *(.gcc_except_table)
+ *(.gnu.linkonce.e.*)
+ *(.gnu.version_r)
+ *(.eh_frame)
+                0x3ffe9114                . = ((. + 0x3) & 0xfffffffc)
+                0x3ffe9114                __init_array_start = ABSOLUTE (.)
+ *crtbegin.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+                0x3ffe9114                __init_array_end = ABSOLUTE (.)
+ *crtbegin.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+                0x3ffe9114                __XT_EXCEPTION_DESCS_ = ABSOLUTE (.)
+ *(.xt_except_desc)
+ *(.gnu.linkonce.h.*)
+                0x3ffe9114                __XT_EXCEPTION_DESCS_END__ = ABSOLUTE (.)
+ *(.xt_except_desc_end)
+ *(.dynamic)
+ *(.gnu.version_d)
+                0x3ffe9114                _rodata_end = ABSOLUTE (.)
+                0x3ffe9114                _lit4_start = ABSOLUTE (.)
+ *(*.lit4)
+ *(.lit4.*)
+ *(.gnu.linkonce.lit4.*)
+                0x3ffe9114                _lit4_end = ABSOLUTE (.)
+                0x3ffe9114                . = ALIGN (0x4)
+                0x3ffe9114                _heap_start = ABSOLUTE (.)
+                0x60001100                PROVIDE (rtc_sys_info = 0x60001100)
+                0x400040c0                PROVIDE (SPI_sector_erase = 0x400040c0)
+                0x40004174                PROVIDE (SPI_page_program = 0x40004174)
+                0x400042ac                PROVIDE (SPI_read_data = 0x400042ac)
+                0x400043c8                PROVIDE (SPI_read_status = 0x400043c8)
+                0x40004400                PROVIDE (SPI_write_status = 0x40004400)
+                0x4000443c                PROVIDE (SPI_write_enable = 0x4000443c)
+                0x4000448c                PROVIDE (Wait_SPI_Idle = 0x4000448c)
+                0x400044c0                PROVIDE (Enable_QMode = 0x400044c0)
+                [!provide]                PROVIDE (Disable_QMode = 0x40004508)
+                0x40004678                PROVIDE (Cache_Read_Enable = 0x40004678)
+                0x400047f0                PROVIDE (Cache_Read_Disable = 0x400047f0)
+                [!provide]                PROVIDE (lldesc_build_chain = 0x40004f40)
+                [!provide]                PROVIDE (lldesc_num2link = 0x40005050)
+                [!provide]                PROVIDE (lldesc_set_owner = 0x4000507c)
+                0x4000c538                __adddf3 = 0x4000c538
+                0x4000c180                __addsf3 = 0x4000c180
+                0x4000cb94                __divdf3 = 0x4000cb94
+                0x4000ce60                __divdi3 = 0x4000ce60
+                0x4000dc88                __divsi3 = 0x4000dc88
+                0x4000cdfc                __extendsfdf2 = 0x4000cdfc
+                0x4000ccb8                __fixdfsi = 0x4000ccb8
+                0x4000cd00                __fixunsdfsi = 0x4000cd00
+                0x4000c4c4                __fixunssfsi = 0x4000c4c4
+                0x4000e2f0                __floatsidf = 0x4000e2f0
+                0x4000e2ac                __floatsisf = 0x4000e2ac
+                0x4000e2e8                __floatunsidf = 0x4000e2e8
+                0x4000e2a4                __floatunsisf = 0x4000e2a4
+                0x4000c8f0                __muldf3 = 0x4000c8f0
+                0x40000650                __muldi3 = 0x40000650
+                0x4000c3dc                __mulsf3 = 0x4000c3dc
+                0x4000c688                __subdf3 = 0x4000c688
+                0x4000c268                __subsf3 = 0x4000c268
+                0x4000cd5c                __truncdfsf2 = 0x4000cd5c
+                0x4000d310                __udivdi3 = 0x4000d310
+                0x4000e21c                __udivsi3 = 0x4000e21c
+                0x4000d770                __umoddi3 = 0x4000d770
+                0x4000e268                __umodsi3 = 0x4000e268
+                0x4000dcf0                __umulsidi3 = 0x4000dcf0
+                0x4000de84                bzero = 0x4000de84
+                0x4000dea8                memcmp = 0x4000dea8
+                0x4000df48                memcpy = 0x4000df48
+                0x4000e04c                memmove = 0x4000e04c
+                0x4000e190                memset = 0x4000e190
+                0x4000bdc8                strcmp = 0x4000bdc8
+                0x4000bec8                strcpy = 0x4000bec8
+                0x4000bf4c                strlen = 0x4000bf4c
+                0x4000bfa8                strncmp = 0x4000bfa8
+                0x4000c0a0                strncpy = 0x4000c0a0
+                0x4000e1e0                strstr = 0x4000e1e0
+                0x40004cf0                PROVIDE (gpio_input_get = 0x40004cf0)
+                [!provide]                PROVIDE (gpio_pin_wakeup_disable = 0x40004ed4)
+                [!provide]                PROVIDE (gpio_pin_wakeup_enable = 0x40004e90)
+                0x40001f00                PROVIDE (ets_io_vprintf = 0x40001f00)
+                [!provide]                PROVIDE (uart_rx_one_char = 0x40003b8c)
+                [!provide]                PROVIDE (rom_i2c_readReg = 0x40007268)
+                [!provide]                PROVIDE (rom_i2c_readReg_Mask = 0x4000729c)
+                [!provide]                PROVIDE (rom_i2c_writeReg = 0x400072d8)
+                [!provide]                PROVIDE (rom_i2c_writeReg_Mask = 0x4000730c)
+                [!provide]                PROVIDE (rom_software_reboot = 0x40000080)
+                [!provide]                PROVIDE (ets_memcpy = 0x400018b4)
+                0x40004b1c                PROVIDE (SPIRead = 0x40004b1c)
+                0x40004a4c                PROVIDE (SPIWrite = 0x40004a4c)
+                0x40004a00                PROVIDE (SPIEraseSector = 0x40004a00)
+                [!provide]                PROVIDE (gpio_input_get = 0x40004cf0)
+                [!provide]                PROVIDE (xthal_get_ccount = 0x4000dd38)
+                [!provide]                PROVIDE (uart_div_modify = 0x400039d8)
+                [!provide]                PROVIDE (ets_io_vprintf = 0x40001f00)
+OUTPUT(D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader.elf elf32-xtensa-le)
+
+.debug_frame    0x00000000      0xae0
+ .debug_frame   0x00000000       0x74 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/main\libmain.a(bootloader_start.o)
+ .debug_frame   0x00000074      0x140 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_utility.o)
+ .debug_frame   0x000001b4       0x94 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
+ .debug_frame   0x00000248       0xdc D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+ .debug_frame   0x00000324      0x13c D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+ .debug_frame   0x00000460       0x38 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
+ .debug_frame   0x00000498       0x74 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_common.o)
+ .debug_frame   0x0000050c      0x350 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+ .debug_frame   0x0000085c      0x16c D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash_raw.o)
+ .debug_frame   0x000009c8       0x58 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/log\liblog.a(log.o)
+ .debug_frame   0x00000a20       0x80 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/esp8266\libesp8266.a(ets_printf.o)
+ .debug_frame   0x00000aa0       0x40 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/esp8266\libesp8266.a(crc.o)
+
+.debug_info     0x00000000     0xc69a
+ .debug_info    0x00000000      0xd7f D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/main\libmain.a(bootloader_start.o)
+ .debug_info    0x00000d7f     0x178d D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_utility.o)
+ .debug_info    0x0000250c      0xe02 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
+ .debug_info    0x0000330e      0xe3a D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+ .debug_info    0x00004148     0x16ca D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+ .debug_info    0x00005812      0xca5 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
+ .debug_info    0x000064b7     0x12b3 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_common.o)
+ .debug_info    0x0000776a     0x1e00 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+ .debug_info    0x0000956a     0x10c9 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash_raw.o)
+ .debug_info    0x0000a633     0x12ba D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/log\liblog.a(log.o)
+ .debug_info    0x0000b8ed      0xb66 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/esp8266\libesp8266.a(ets_printf.o)
+ .debug_info    0x0000c453      0x247 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/esp8266\libesp8266.a(crc.o)
+
+.debug_abbrev   0x00000000     0x216f
+ .debug_abbrev  0x00000000      0x2a2 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/main\libmain.a(bootloader_start.o)
+ .debug_abbrev  0x000002a2      0x355 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_utility.o)
+ .debug_abbrev  0x000005f7      0x2f2 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
+ .debug_abbrev  0x000008e9      0x2aa D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+ .debug_abbrev  0x00000b93      0x316 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+ .debug_abbrev  0x00000ea9      0x271 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
+ .debug_abbrev  0x0000111a      0x2c7 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_common.o)
+ .debug_abbrev  0x000013e1      0x45b D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+ .debug_abbrev  0x0000183c      0x29d D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash_raw.o)
+ .debug_abbrev  0x00001ad9      0x315 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/log\liblog.a(log.o)
+ .debug_abbrev  0x00001dee      0x2a2 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/esp8266\libesp8266.a(ets_printf.o)
+ .debug_abbrev  0x00002090       0xdf D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/esp8266\libesp8266.a(crc.o)
+
+.debug_loc      0x00000000     0x368e
+ .debug_loc     0x00000000       0x9b D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/main\libmain.a(bootloader_start.o)
+ .debug_loc     0x0000009b      0x717 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_utility.o)
+ .debug_loc     0x000007b2       0xbc D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
+ .debug_loc     0x0000086e      0x427 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+ .debug_loc     0x00000c95      0xb53 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+ .debug_loc     0x000017e8      0x11a D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
+ .debug_loc     0x00001902      0x18f D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_common.o)
+ .debug_loc     0x00001a91     0x11dd D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+ .debug_loc     0x00002c6e      0x668 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash_raw.o)
+ .debug_loc     0x000032d6      0x119 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/log\liblog.a(log.o)
+ .debug_loc     0x000033ef       0xe9 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/esp8266\libesp8266.a(ets_printf.o)
+ .debug_loc     0x000034d8      0x1b6 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/esp8266\libesp8266.a(crc.o)
+
+.debug_aranges  0x00000000      0x3a8
+ .debug_aranges
+                0x00000000       0x30 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/main\libmain.a(bootloader_start.o)
+ .debug_aranges
+                0x00000030       0x60 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_utility.o)
+ .debug_aranges
+                0x00000090       0x38 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
+ .debug_aranges
+                0x000000c8       0x48 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+ .debug_aranges
+                0x00000110       0x60 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+ .debug_aranges
+                0x00000170       0x20 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
+ .debug_aranges
+                0x00000190       0x30 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_common.o)
+ .debug_aranges
+                0x000001c0       0xe8 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+ .debug_aranges
+                0x000002a8       0x70 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash_raw.o)
+ .debug_aranges
+                0x00000318       0x28 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/log\liblog.a(log.o)
+ .debug_aranges
+                0x00000340       0x38 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/esp8266\libesp8266.a(ets_printf.o)
+ .debug_aranges
+                0x00000378       0x30 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/esp8266\libesp8266.a(crc.o)
+
+.debug_ranges   0x00000000      0x318
+ .debug_ranges  0x00000000       0x20 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/main\libmain.a(bootloader_start.o)
+ .debug_ranges  0x00000020       0x50 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_utility.o)
+ .debug_ranges  0x00000070       0x28 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
+ .debug_ranges  0x00000098       0x38 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+ .debug_ranges  0x000000d0       0x68 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+ .debug_ranges  0x00000138       0x10 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
+ .debug_ranges  0x00000148       0x20 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_common.o)
+ .debug_ranges  0x00000168       0xf0 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+ .debug_ranges  0x00000258       0x60 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash_raw.o)
+ .debug_ranges  0x000002b8       0x18 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/log\liblog.a(log.o)
+ .debug_ranges  0x000002d0       0x28 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/esp8266\libesp8266.a(ets_printf.o)
+ .debug_ranges  0x000002f8       0x20 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/esp8266\libesp8266.a(crc.o)
+
+.debug_line     0x00000000     0x7947
+ .debug_line    0x00000000      0x4c0 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/main\libmain.a(bootloader_start.o)
+ .debug_line    0x000004c0     0x12e3 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_utility.o)
+ .debug_line    0x000017a3      0x732 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
+ .debug_line    0x00001ed5      0x7ed D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+ .debug_line    0x000026c2     0x11b0 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+ .debug_line    0x00003872      0x59b D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
+ .debug_line    0x00003e0d      0x579 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_common.o)
+ .debug_line    0x00004386     0x1e8f D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+ .debug_line    0x00006215      0xb77 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash_raw.o)
+ .debug_line    0x00006d8c      0x4c5 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/log\liblog.a(log.o)
+ .debug_line    0x00007251      0x3aa D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/esp8266\libesp8266.a(ets_printf.o)
+ .debug_line    0x000075fb      0x34c D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/esp8266\libesp8266.a(crc.o)
+
+.debug_str      0x00000000     0x257d
+ .debug_str     0x00000000      0x834 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/main\libmain.a(bootloader_start.o)
+                                0x909 (size before relaxing)
+ .debug_str     0x00000834      0x338 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_utility.o)
+                                0xbbe (size before relaxing)
+ .debug_str     0x00000b6c      0x312 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
+                                0xa30 (size before relaxing)
+ .debug_str     0x00000e7e      0x139 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+                                0x7c2 (size before relaxing)
+ .debug_str     0x00000fb7      0x1c6 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+                                0xbac (size before relaxing)
+ .debug_str     0x0000117d       0x7e D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
+                                0x7da (size before relaxing)
+ .debug_str     0x000011fb      0xab6 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_common.o)
+                               0x10ec (size before relaxing)
+ .debug_str     0x00001cb1      0x53e D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+                                0xd44 (size before relaxing)
+ .debug_str     0x000021ef      0x126 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash_raw.o)
+                                0x8ec (size before relaxing)
+ .debug_str     0x00002315      0x130 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/log\liblog.a(log.o)
+                               0x1055 (size before relaxing)
+ .debug_str     0x00002445       0xbb D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/esp8266\libesp8266.a(ets_printf.o)
+                                0x6ba (size before relaxing)
+ .debug_str     0x00002500       0x7d D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/esp8266\libesp8266.a(crc.o)
+                                0x1e2 (size before relaxing)
+
+.comment        0x00000000       0x31
+ .comment       0x00000000       0x31 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/main\libmain.a(bootloader_start.o)
+                                 0x32 (size before relaxing)
+ .comment       0x00000031       0x32 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_utility.o)
+ .comment       0x00000031       0x32 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
+ .comment       0x00000031       0x32 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+ .comment       0x00000031       0x32 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+ .comment       0x00000031       0x32 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
+ .comment       0x00000031       0x32 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_common.o)
+ .comment       0x00000031       0x32 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+ .comment       0x00000031       0x32 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash_raw.o)
+ .comment       0x00000031       0x32 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/log\liblog.a(log.o)
+ .comment       0x00000031       0x32 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/esp8266\libesp8266.a(ets_printf.o)
+ .comment       0x00000031       0x32 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/esp8266\libesp8266.a(crc.o)
+ .comment       0x00000031       0x32 D:/msys32/opt/ESP8266_RTOS_SDK/components/esp8266/lib\libcore.a(phy.o)
+
+.xtensa.info    0x00000000       0x38
+ .xtensa.info   0x00000000       0x38 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/main\libmain.a(bootloader_start.o)
+ .xtensa.info   0x00000038        0x0 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_utility.o)
+ .xtensa.info   0x00000038        0x0 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
+ .xtensa.info   0x00000038        0x0 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+ .xtensa.info   0x00000038        0x0 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+ .xtensa.info   0x00000038        0x0 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
+ .xtensa.info   0x00000038        0x0 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_common.o)
+ .xtensa.info   0x00000038        0x0 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+ .xtensa.info   0x00000038        0x0 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/spi_flash\libspi_flash.a(spi_flash_raw.o)
+ .xtensa.info   0x00000038        0x0 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/log\liblog.a(log.o)
+ .xtensa.info   0x00000038        0x0 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/esp8266\libesp8266.a(ets_printf.o)
+ .xtensa.info   0x00000038        0x0 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/esp8266\libesp8266.a(crc.o)
+ .xtensa.info   0x00000038        0x0 D:/msys32/opt/ESP8266_RTOS_SDK/MyProject/station/build/bootloader/esp8266\libesp8266.a(esp_fast_boot.o)
+ .xtensa.info   0x00000038        0x0 D:/msys32/opt/ESP8266_RTOS_SDK/components/esp8266/lib\libcore.a(phy.o)

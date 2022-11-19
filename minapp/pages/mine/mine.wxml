@@ -1,0 +1,42 @@
+<!--pages/mine/mine.wxml-->
+<import src='/tabbar/tabbar.wxml' />
+<view class="head">
+  <view class="message">
+    <image class="userImg" src="{{userImg}}" ></image>
+    <view class="login">
+      <text>{{userName}}</text>
+      <button type="primary" bindtap="getInfo" style="width: 100px;" >{{btn}}</button>
+    </view>
+  </view>
+
+</view>
+<view class="body">
+  <view class="item" bindtap="goTo" data-id="/pages/show/show">
+    <image class="img" src="/images/seting.png"></image>
+    <text decode="true">&nbsp;&nbsp;设置</text>
+  </view>
+  <view class="item" bindtap="goTo" data-id="latest/latest">
+    <image class="img" src="/images/certified.png"></image>
+    <text decode="true">&nbsp;&nbsp;认证</text>
+  </view>
+  <view class="item" bindtap="goTo" data-id="latest/latest">
+    <image class="img" src="/images/messgae.png"></image>
+    <text decode="true">&nbsp;&nbsp;消息</text>
+  </view>
+  <view class="item" bindtap="goTo" data-id="latest/latest">
+    <image class="img" src="/images/question.png"></image>
+    <text decode="true">&nbsp;&nbsp;疑问</text>
+  </view>
+  <view class="item" bindtap="goTo" data-id="latest/latest">
+    <image class="img" src="/images/more.png"></image>
+    <text decode="true">&nbsp;&nbsp;更多</text>
+  </view>
+
+</view>
+<map latitude="31.23037" longitude="121.4737" style="width: 100%;height: 40vh;"></map>
+<!--底部tabBar    -->
+<view>
+  <include src="/tabbar/tabbar.wxml" />
+</view>
+
+

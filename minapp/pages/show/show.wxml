@@ -1,0 +1,12 @@
+<!--pages/show/show.wxml-->
+<view class="container">
+  <ec-canvas id="mychart-dom-multi-bar" canvas-id="mychart-multi-bar" ec="{{ ecTemp }}"></ec-canvas>
+</view>
+<view class="container">
+  <ec-canvas id="mychart-dom-bar" canvas-id="mychart-bar" ec="{{ ecSao2 }}"></ec-canvas>
+</view>
+<view class="container">
+  <ec-canvas id="mychart-dom-bar" canvas-id="mychart-bar" ec="{{ ecHr }}"></ec-canvas>
+</view>
+
+

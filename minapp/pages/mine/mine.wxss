@@ -1,0 +1,43 @@
+/* pages/mine/mine.wxss */
+.head {
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.userImg {
+  width: 120px;
+  height: 120px;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.message {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.img {
+  width: 50px;
+  height: 50px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.body {
+  display: flex;
+  height: 18vh;
+  justify-content: space-around;
+}
+
+@import "/tabbar/tabbar.wxss";
