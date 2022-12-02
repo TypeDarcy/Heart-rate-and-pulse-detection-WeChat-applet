@@ -92,7 +92,7 @@ Page({
       success(res) {
         const latitude = res.latitude //维度
         const longitude = res.longitude //经度
-        const key = '1ed941e2f6157fa60b5f69590d740aa2' //高德地图key
+        const key = 'yourkey' //你的高德地图key
         console.log(res)
         wx.request({
           url: `https://restapi.amap.com/v3/geocode/regeo?output=json&location=${longitude},${latitude}&key=${key}&extensions=all`,
